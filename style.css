@@ -37,6 +37,11 @@ h2.webpage_title_s {
     font-weight: 600;
 }
 
+h1.webpage_title_xxl {
+    font-size: 38px;
+    text-align: center;
+    margin: 5px 0;
+}
 h1.webpage_title_xl {
     font-size: 34px;
     text-align: center;
@@ -60,6 +65,11 @@ p.paragrap_text {
     padding: 20px 40px;
 }
 
+h2.heading_3 {
+    font-size: 29px;
+    margin: 5px 0;
+    text-align: center;
+}
 h2.heading_2 {
     font-size: 20px;
     margin: 20px 0;
@@ -494,7 +504,9 @@ button.btn.continue-btn:hover{
     h1.webpage_title_xl {
         font-size: 32px;
     }
-    
+    h2.heading_3 {
+        font-size: 26px;
+    }
 }
 @media screen and (max-width: 768px) {
     
@@ -559,6 +571,14 @@ button.btn.continue-btn:hover{
     .col___40 {
         width: 100%;
     }
+
+    h1.webpage_title_xxl {
+        font-size: 34px;
+    }
+
+    h2.heading_3 {
+        font-size: 24px;
+    }
 }
 
 @media screen and (max-width: 667px) {
@@ -573,6 +593,9 @@ button.btn.continue-btn:hover{
 
     .row_4 {
         row-gap: 35px;
+    }
+    h2.heading_3 br {
+       display: none;
     }
 }
 
@@ -645,5 +668,13 @@ button.btn.continue-btn:hover{
     .container {
         width: 95%;
         margin: auto;
+    }
+
+    h1.webpage_title_xxl {
+        font-size: 30px;
+    }
+
+    h2.heading_3 {
+        font-size: 20px;
     }
 }
