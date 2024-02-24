@@ -38,9 +38,14 @@ h2.webpage_title_s {
 }
 
 h1.webpage_title_xxl {
-    font-size: 38px;
+    font-size: 74px;
     text-align: center;
     margin: 5px 0;
+}
+
+h2.heading_4 {
+    font-size: 40px;
+    text-align: center;
 }
 h1.webpage_title_xl {
     font-size: 34px;
@@ -139,12 +144,13 @@ span.small_text {
 }
 
 .col-half ul li{
-    margin: 12px 0;
+    margin: 5px 0;
 }
 
 .col-half ul li p{
     font-size: 14px;
     margin-right: 10px;
+    font-weight: 700;
 }
 
 .row_4 {
@@ -500,7 +506,9 @@ button.btn.continue-btn:hover{
     .webpage_title_l br{
         display: none;
     }
-
+    h1.webpage_title_xxl {
+        font-size: 62px;
+    }
     h1.webpage_title_xl {
         font-size: 32px;
     }
@@ -573,7 +581,7 @@ button.btn.continue-btn:hover{
     }
 
     h1.webpage_title_xxl {
-        font-size: 34px;
+        font-size: 50px;
     }
 
     h2.heading_3 {
@@ -671,7 +679,7 @@ button.btn.continue-btn:hover{
     }
 
     h1.webpage_title_xxl {
-        font-size: 30px;
+        font-size: 46px;
     }
 
     h2.heading_3 {
