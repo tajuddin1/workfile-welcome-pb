@@ -144,7 +144,7 @@ span.small_text {
 }
 
 .col-half ul li{
-    margin: 5px 0;
+    margin: 7px 0;
 }
 
 .col-half ul li p{
@@ -515,6 +515,9 @@ button.btn.continue-btn:hover{
     h2.heading_3 {
         font-size: 26px;
     }
+    h2.heading_4 {
+        font-size: 30px;
+    }
 }
 @media screen and (max-width: 768px) {
     
@@ -544,7 +547,7 @@ button.btn.continue-btn:hover{
     }
 
     .col-half ul li {
-        margin: 10px 0;
+        margin: 5px 0;
     }
     h3.heading_3 {
         font-size: 22px;
@@ -587,6 +590,10 @@ button.btn.continue-btn:hover{
     h2.heading_3 {
         font-size: 24px;
     }
+    
+    h2.heading_3 br {
+        display: none;
+     }
 }
 
 @media screen and (max-width: 667px) {
@@ -602,17 +609,11 @@ button.btn.continue-btn:hover{
     .row_4 {
         row-gap: 35px;
     }
-    h2.heading_3 br {
-       display: none;
-    }
 }
 
 @media screen and (max-width: 590px) {
     .webpage_content {
         padding: 30px;
-    }
-    .col-half ul li {
-        margin: 8px 0;
     }
     .padding-20-40 {
         padding: 20px;
